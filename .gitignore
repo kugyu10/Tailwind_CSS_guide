@@ -1,0 +1,16 @@
+# Environments
+.env
+env/
+
+# DS_Store
+.DS_Store
+
+# node_modules
+node_modules/
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
