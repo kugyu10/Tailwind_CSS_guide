@@ -106,8 +106,101 @@
         <td class="border px-4 py-2">5月5日</td>
       </tr>
     </table>
+
+    <h2 class="my-10">フォームのテスト</h2>
+    <form class="my-4">
+      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="form-last-name">
+        名前：
+      </label>
+      <input
+        class="appearane-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:border-gray-500"
+        id="form-last-name" type="text" placeholder="お名前">
+
+      <label class="block text-gray-700 text-sm font-bold mb-2">
+        お問い合わせ内容：
+      </label>
+      <textarea
+        class="shadow appearane-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+        name="message"></textarea>
+
+      <div class="w-full px-3">
+        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="form-password">
+          好きな曲は？：
+        </label>
+        <div class="relative">
+          <select
+            class="block appearance-none w-full bg-white border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight forus:outline-none focus:bg-white focus:border-gray-500"
+            id="form-song">
+            <option>虹色ミラクル</option>
+            <option>私色ギフト</option>
+            <option>夢色トレイン</option>
+          </select>
+
+          <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+            <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+            </svg>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="mb-4">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+          あなたの性別は：
+        </label>
+        <label class="inline-flex items-center">
+          <input name="brand" class="form-radio" type="radio" value="m">
+          <span class="ml-2">男性</span>
+        </label>
+        <label class="inline-flex items-center">
+          <input name="brand" class="form-radio" type="radio" value="f">
+          <span class="ml-2">女性</span>
+        </label>
+        <label class="inline-flex items-center">
+          <input name="brand" class="form-radio" type="radio" value="o">
+          <span class="ml-2">その他</span>
+        </label>
+      </div>
+
+      <div class="mb-4">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+          好きなアイマスブランドは？：
+        </label>
+        <lable class="inline-flex items-center">
+          <input type="checkbox" name="check_1" class="rounded-full mx-1 text-cyan-600 focus:outline-none" />
+          <span class="ml-2">765AS</span>
+        </lable>
+        <lable class="inline-flex items-center">
+          <input type="checkbox" name="check_2" class="rounded-full mx-1 text-cyan-600 focus:outline-none" />
+          <span class="ml-2">シンデレラガールズ</span>
+        </lable>
+        <lable class="inline-flex items-center">
+          <input type="checkbox" name="check_3" class="rounded-full mx-1 text-cyan-600 focus:outline-none" />
+          <span class="ml-2">ミリオンライブ</span>
+        </lable>
+        <lable class="inline-flex items-center">
+          <input type="checkbox" name="check_4" class="rounded-full mx-1 text-cyan-600 focus:outline-none" />
+          <span class="ml-2">SideM</span>
+        </lable>
+        <lable class="inline-flex items-center">
+          <input type="checkbox" name="check_5" class="rounded-full mx-1 text-cyan-600 focus:outline-none" />
+          <span class="ml-2">シャイニーカラーズ</span>
+        </lable>
+      </div>
+
+      <div class="mb-4">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="Date">
+          日付：
+        </label>
+        <input
+          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          name="date" type="date" value="" required>
+      </div>
+
+    </form>
   </div>
-  </div>
+
 </body>
 
 </html>
