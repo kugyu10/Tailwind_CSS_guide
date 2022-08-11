@@ -10,17 +10,20 @@
 <body>
   <nav class="flex items-center justify-between flex-wrap bg-blue-300 p-6">
     <div class="flex items-center flex-shrink-0 text-white mr-6">
-      <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg">
-        <path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/>
+      <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z" />
       </svg>
       <span class="front-semibold text-xl tracking-tight">Tailwind Test</span>
     </div>
     <div class="block lg:hidden">
-      <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+      <button
+        class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
         Menu
       </button>
     </div>
-    
+
     <div class="w-full block flex-grow lg:flex lf:items-center lg:w-auto">
 
       <div class="text-sm text-center lg:flex-grow">
@@ -44,7 +47,8 @@
         </a>
       </div>
       <div>
-        <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">資料DL</a>
+        <a href="#"
+          class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">資料DL</a>
       </div>
     </div>
   </nav>
@@ -55,7 +59,42 @@
       Tailwindのテスト用ページです
     </h1>
     <h2 class="my-4">画像テスト：</h2>
-    <img lazy class="w-80 mt-6 rounded-lg shadow-xl" src="https://www.idolmaster-anime.jp/character/img/mainImg.jpg" alt="">
+    <img lazy class="w-80 mt-6 rounded-lg shadow-xl" src="https://www.idolmaster-anime.jp/character/img/mainImg.jpg"
+      alt="">
+
+    <h2 class="my-4">カードレイアウト　レスポンシブに動きます。</h2>
+    <section>
+
+      <div class="shadow border border-gray-300 rounded-2xl max-w-sm w-full lg:max-w-full lg:flex">
+        <div class="h-48 flex-none bg-cover text-center overflow-hidden rounded-t-2xl
+        lg:h-auto lg:w-48 lg:rounded-l-2xl">
+          <img lazy class="w-max h-max object-cover" src="https://columbia.jp/prod-info/jacket/COCX-41162.jpg">
+        </div>
+
+        <div class=" bg-white
+        p-4 flex flex-col justify-betweeb leading-normal rounded-b-2xl
+        lg:rounded-r-2xl">
+            <p class="text-sm text-gray-600 flex items-center">
+              音楽
+            </p>
+            <div class="text-gray-900 font-bold text-xl mb-2">いおりんのMA4マジ最高！！</div>
+            <p class="text-gray-700 text-base mb-4">全人類、いおりんのMA4のソナーは聴いてくれ！マジでいい曲だから！いおりんらしい可愛らしさとオサレさが爆発してて愛くるし...</p>
+            <div class="flex items-center">
+              <img lazy class="w-10 h-10 rounded-full mr-4"
+                src="https://kugyu10-post.s3.ap-northeast-1.amazonaws.com/uota510.webp" alt="">
+              <div class="text-sm">
+                <p class="text-gray-900 leading-none">kugyu10</p>
+                <p class="text-gray-600">2022-08-11</p>
+              </div>
+            </div>
+        </div>
+      </div>
+
+
+
+
+    </section>
+
 
     <h2 class="m-4">ボタンのテスト：</h2>
     <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
