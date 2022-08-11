@@ -616,6 +616,10 @@ video {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .w-48 {
   width: 12rem;
 }
@@ -632,12 +636,20 @@ video {
   flex: 1 1 0%;
 }
 
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .flex-row {
   flex-direction: row;
 }
 
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .rounded {
@@ -680,6 +692,11 @@ video {
 .bg-blue-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+}
+
+.bg-green-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
 }
 
 .p-2 {
