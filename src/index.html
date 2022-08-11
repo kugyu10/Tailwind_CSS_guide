@@ -76,19 +76,19 @@
         <div class=" bg-white
         p-4 flex flex-col justify-betweeb leading-normal rounded-b-2xl
         lg:rounded-r-2xl">
-            <p class="text-sm text-gray-600 flex items-center">
-              音楽
-            </p>
-            <div class="text-gray-900 font-bold text-xl mb-2">いおりんのMA4マジ最高！！</div>
-            <p class="text-gray-700 text-base mb-4">全人類、いおりんのMA4のソナーは聴いてくれ！マジでいい曲だから！いおりんらしい可愛らしさとオサレさが爆発してて愛くるし...</p>
-            <div class="flex items-center">
-              <img lazy class="w-10 h-10 rounded-full mr-4"
-                src="https://kugyu10-post.s3.ap-northeast-1.amazonaws.com/uota510.webp" alt="">
-              <div class="text-sm">
-                <p class="text-gray-900 leading-none">kugyu10</p>
-                <p class="text-gray-600">2022-08-11</p>
-              </div>
+          <p class="text-sm text-gray-600 flex items-center">
+            音楽
+          </p>
+          <div class="text-gray-900 font-bold text-xl mb-2">いおりんのMA4マジ最高！！</div>
+          <p class="text-gray-700 text-base mb-4">全人類、いおりんのMA4のソナーは聴いてくれ！マジでいい曲だから！いおりんらしい可愛らしさとオサレさが爆発してて愛くるし...</p>
+          <div class="flex items-center">
+            <img lazy class="w-10 h-10 rounded-full mr-4"
+              src="https://kugyu10-post.s3.ap-northeast-1.amazonaws.com/uota510.webp" alt="">
+            <div class="text-sm">
+              <p class="text-gray-900 leading-none">kugyu10</p>
+              <p class="text-gray-600">2022-08-11</p>
             </div>
+          </div>
         </div>
       </div>
 
@@ -103,9 +103,12 @@
           </p>
         </div>
         <div class="px-6 pt-4 pb-2">
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#音楽</span>
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#アイマス</span>
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#釘宮理恵</span>
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#音楽</span>
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#アイマス</span>
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#釘宮理恵</span>
         </div>
       </div>
 
@@ -303,6 +306,38 @@
         輝きの向こう側へ送信
       </button>
       <hr class="my-4">
+
+      <section class="mb-10">
+        <h2 class="my-4">アラート表示のテスト：</h2>
+        <label>
+          <input type="checkbox" class="peer">
+          情報：
+          <div class="bg-blue-100 border-blue-400 text-blue-700 px-4 py-3 rounded hidden peer-checked:block"
+            role="alret">
+            <strog class="font-bold">変態！：</strog><br />
+            <span class="bloc sm:inline">情報メッセージのサンプルです。</span>
+          </div>
+        </label>
+        <hr class="my-4">
+        <label>
+          <input type="checkbox" class="peer">
+          警告：
+          <div class="bg-yellow-100 border-yellow-400 text-yellow-700 px-4 py-3 rounded hidden peer-checked:block"
+            role="alret">
+            <strog class="font-bold">der変態！：</strog><br />
+            <span class="bloc sm:inline">警告メッセージのサンプルです。</span>
+          </div>
+        </label>
+        <hr class="my-4">
+        <label>
+          <input type="checkbox" class="peer">
+          エラー：
+          <div class="bg-red-100 border-red-400 text-red-700 px-4 py-3 rounded hidden peer-checked:block" role="alret">
+            <strog class="font-bold">変態大人！：</strog><br />
+            <span class="bloc sm:inline">エラーメッセージのサンプルです。</span>
+          </div>
+        </label>
+      </section>
     </form>
   </div>
 
